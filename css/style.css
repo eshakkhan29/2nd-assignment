@@ -91,25 +91,16 @@ body{
     margin-bottom: 30px;
 }
 .benner-image{
-    text-align: right;
+    text-align: center;
     width: 50%;
-    position: relative;
 }
-.main-iamges{
-    width: 100%;
-}
-
-.circle {
-    width: 80%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
+.main-camera{
+    width: 85%;
 }
 
 /* brands logo area css */
 .logos{
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -228,13 +219,14 @@ hr{
         justify-content: center;
     }
     .benner-image{
-        text-align: center;
         width: 100%;
-        position: relative;
         margin-top: 20px;
     }
-    .main-camera, .circle{
-        width: 90%;
+    .main-camera{
+        width: 80%;
+    }
+    .logos{
+        margin-top: 50px;
     }
     .collections{
         grid-template-columns: 1fr;
