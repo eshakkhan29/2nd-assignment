@@ -87,6 +87,8 @@ body{
     line-height: 24px;
     color: var(--main-text);
     margin: 16px 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .benner-image{
     text-align: right;
@@ -159,9 +161,11 @@ hr{
 }
 .rating .oreng{
     color: #FB8200;
-    margin-right: 10px;
+    font-size: 14px;
+
 }
 .rating span{
+    margin-left: 10px;
     font-size: 14px;
     color: #5E6366;
     font-weight: bold;
@@ -173,6 +177,15 @@ hr{
     letter-spacing: 0.018em;
     color: #787885;
     display: block;
+}
+.see-more{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #e02c6dde;
+    text-align: right;
 }
 
 
@@ -222,5 +235,8 @@ hr{
     }
     .main-camera, .circle{
         width: 90%;
+    }
+    .collections{
+        grid-template-columns: 1fr;
     }
 }
