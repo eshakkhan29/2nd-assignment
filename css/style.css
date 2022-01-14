@@ -55,3 +55,25 @@ body{
 .manubar-icon .fa-search{
     margin-right: 34px;
 }
+
+
+
+
+
+/* responsive */
+@media (max-width:688px){
+    .container{
+        max-width: 100%;
+    }
+    .header-section{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .logo{
+        margin-top: 30px;
+    }
+    .navigation ul li a,.manubar-icon .fa-search{
+        margin-right: 15px;
+        font-size: 15px;
+    }
+}
