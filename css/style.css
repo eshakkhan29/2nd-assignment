@@ -105,6 +105,75 @@ body{
     z-index: -1;
 }
 
+/* brands logo area css */
+.logos{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.logos img{
+    margin: 15px 30px;
+}
+hr{
+    border: 1px solid #5c5c5cb7;
+}
+
+/* collection section css */
+.collection-section{
+    margin-top: 100px;
+}
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--main-text);
+    text-align: center;
+}
+.collections{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.collection{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.collection-image img{
+    border-radius: 5px;
+    width: 100%;
+}
+.collection-info .collection-name{
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+}
+.collection-info .price{
+    font-size: 24px;
+    font-weight: normal;
+    color:#000000de;
+}
+.rating .oreng{
+    color: #FB8200;
+    margin-right: 10px;
+}
+.rating span{
+    font-size: 14px;
+    color: #5E6366;
+    font-weight: bold;
+}
+.collection-info .info{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.018em;
+    color: #787885;
+    display: block;
+}
 
 
 /* responsive */
@@ -146,6 +215,7 @@ body{
         justify-content: center;
     }
     .benner-image{
+        text-align: center;
         width: 100%;
         position: relative;
         margin-top: 20px;
