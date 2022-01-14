@@ -24,6 +24,34 @@ body{
 
 /* header section css */
 .header-section{
+    height: 128px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--main-text);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 34px;
+    color: var(--main-text);
+    font-weight: 600;
+}
+.manubar-icon .fa-search{
+    margin-right: 34px;
 }
