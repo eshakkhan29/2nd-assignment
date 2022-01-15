@@ -326,13 +326,16 @@ hr{
         margin-bottom: 15px;
     }
     .footer-area{
-        max-width: 100vh;
+        max-width: 100%;
     }
 }
 
 @media (min-width:688px) and (max-width:992px){
     .container{
         max-width: 100%;
+    }
+    .collections{
+        grid-template-columns: 1fr 1fr;
     }
     .navigation ul li a,.manubar-icon .fa-search{
         font-size: 14px;
@@ -341,5 +344,8 @@ hr{
     .benner-text h1{
         font-size: 40px;
         display: inli;
+    }
+    .footer-area{
+        max-width: 100%;
     }
 }
