@@ -318,6 +318,9 @@ hr{
     .input-subscribe input{
         margin-bottom: 15px;
     }
+    .footer-area{
+        max-width: 100vh;
+    }
 }
 
 @media (min-width:688px) and (max-width:992px){
