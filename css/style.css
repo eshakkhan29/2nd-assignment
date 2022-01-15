@@ -179,6 +179,44 @@ hr{
     text-align: right;
 }
 
+/* footer section css */
+.footer-area{
+    background: #0A0826;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.copy-right, .allright{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 10px 0px;
+}
+.sosial-icon{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 50px;
+}
+.sosial-icon i{
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    background: #22213C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 8px;
+}
 
 /* responsive */
 @media (max-width:688px){
