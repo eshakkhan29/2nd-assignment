@@ -95,20 +95,27 @@ body{
 }
 .main-camera{
     width: 85%;
-    animation: mainanimation 2s ease-in-out infinite alternate;
+    animation: mainanimation 7s ease-in-out infinite alternate;
     transition: all .5s ease;
-}
+}  
 @keyframes mainanimation {
     0%{
         transform: scale(.3);
     }
+    25%{
+        transform: scale(.5);
+    }
     50%{
+        transform: scale(1);
+    }
+    75%{
         transform: scale(.5);
     }
     100%{
-        transform: scale(1);
+        transform: scale(.3);
     }
 }
+
 
 /* brands logo area css */
 .logos{
