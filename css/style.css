@@ -39,7 +39,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .logo{
     font-weight: bold;
@@ -96,10 +95,22 @@ body{
 }
 .main-camera{
     width: 85%;
+    animation: mainanimation 2s ease-in-out infinite alternate;
     transition: all .5s ease;
 }
 .benner-image:hover .main-camera{
     transform: rotate(45deg);
+}
+@keyframes mainanimation {
+    0%{
+        transform: scale(.3);
+    }
+    50%{
+        transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 /* brands logo area css */
