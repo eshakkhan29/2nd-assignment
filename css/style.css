@@ -96,6 +96,10 @@ body{
 }
 .main-camera{
     width: 85%;
+    transition: all .5s ease;
+}
+.benner-image:hover .main-camera{
+    transform: rotate(45deg);
 }
 
 /* brands logo area css */
@@ -178,6 +182,9 @@ hr{
     color: #e02c6dde;
     text-align: right;
 }
+
+
+
 
 /* footer section css */
 .footer-area{
